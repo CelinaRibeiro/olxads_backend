@@ -1,0 +1,54 @@
+- Sistema de autenticaçao
+
+- Users
+--name
+--email
+--password
+
+-Sistema de Publicaçao de ADS
+- Ads (anúncio)
+--title
+--category_id
+--price
+--isNegotiable
+--description
+
+-Category
+--name
+--slug
+--?image
+
+-Sistema de Filtros
+-States (estados)
+--name
+--slug
+
+
+
+ROTAS
+/**
+ * Rotas de utilidade
+ * [] - /ping - Responde com pong
+ * 
+ * - Rotas de autenticaçao * Autenticaçao via Token
+ * [] - /user/signin - Login
+ * [] - /user/signup  - Registro user
+ * [] - /user/me --informações do user logado
+ * 
+ * 
+ * - Rotas de Estado
+ * [] - /states - Listar estados
+ * [] - /categories - Listar categorias
+ * 
+ * 
+ * 
+ * - Rotas de Advertises
+ * [] - /add/list - Listar anúncios
+ * [] - /add/id - dados do anúncio unico
+ * [] - /add/add - add anúncio unico
+ * [] - /add/id(put) - alterar anúncio 
+ * [] - /add/id/delete - deletar anúncio 
+ * [] - /add/id/image - deletar imagem do anúncio 
+ */
+
+
